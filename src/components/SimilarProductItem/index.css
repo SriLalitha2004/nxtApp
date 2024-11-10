@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.similar-product-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  width: 220px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px){
+  .similar-product-item {
+    width: 220px;
+    margin-right:  60px;
+  }
+}
+
+.similar-product-thumbnail {
+  width: 100%;
+  max-height: 220px;
+  border-radius: 6px;
+}
+
+.similar-product-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.similar-product-brand {
+  color: #594d6d;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 6px;
+  margin-top: 5px;
+}
+
+.similar-product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 22px;
+}
+
+.similar-product-price {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.similar-product-rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+
+.similar-product-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.similar-product-star {
+  height: 14px;
+  width: 14px;
+}
+*{
+    /* border: 1px solid red; */
+}
